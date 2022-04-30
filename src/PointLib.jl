@@ -43,4 +43,4 @@ function iscollinear(pA::Point2D, pB::Point2D, pC::Point2D)
     return 2Δ(pA, pB, pC)/l ≤ ϵ()
 end
 
-end # module
+end # module PointLib
